@@ -17,3 +17,21 @@
  * input: []
  * output: ""
  */
+
+
+/**
+ * #10 :: Converts a collection (array) to a string, with the elements joined by '|'.
+ * If the array is empty, returns an empty string.
+ * 
+ * @param {Array} collection - The array to transform.
+ * @returns {string} - The string with the elements joined by '|', or an empty string if the collection is empty.
+ */
+const transformCollectionToString = function (collection) {
+    if (collection.length > 0) {
+      return collection.join(' | ');
+    }
+    return '';
+  };
+  
+  export default transformCollectionToString;
+  

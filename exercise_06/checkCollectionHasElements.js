@@ -3,3 +3,15 @@
  * input: array (collection)
  * output: boolean
  */
+/**
+ * #6 :: Checks if a collection has any elements.
+ *
+ * @param {Array} collection - The collection to be checked.
+ * @returns {boolean} True if the collection has elements, false otherwise.
+ */
+const checkCollectionHasElements = function (collection) {
+    return collection.length > 0;
+  };
+  
+  export default checkCollectionHasElements;
+  
